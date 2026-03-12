@@ -2,6 +2,9 @@
 <html lang="fr">
 <head>
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+   
 </head>
 <body>
     <header>
@@ -19,13 +22,15 @@
 
     <main>
         <section id="about">
-            <h2>À propos de moi</h2>
+           
+            <h2 class="unique">À propos de moi</h2>
+
              <table border="1">
                 <tr>
-                  <th>name</th>
-                  <th>last name</th>
-                  <th> age</th>
-                  <th>highschool</th>
+                  <th class="my-class">Name</th>
+                  <th class="my-class">Last name</th>
+                  <th class="my-class">Age</th>
+                  <th class="my-class">Highschool</th>
                 </tr>
                 <tr>
                     <td>Yasmine</td>
@@ -36,15 +41,15 @@
             </table>
         </section>
         <section id="work">
-            <h2>Travail de rêve</h2>
+            <h2 class="unique">Travail de rêve</h2>
              <img src="./téléchargement.jpg" alt="">
         </section>
         <section id="resume">
-            <h2>Etude</h2>
+            <h2 class="unique">Etude</h2>
             <p>cour de developpement d'un site web. Niveau HTML</p>
         </section>
         <section id="contact">
-            <h2>Contactez-moi</h2>
+            <h2 class="unique">Contactez-moi</h2>
             <form>
                 <input type="text" placeholder="Nom">
                 <input type="email" placeholder="Email">
@@ -54,7 +59,8 @@
     </main>
 
     <footer>
-        <p>Mon portfolio 2026</p>
+        <p id="footer">Mon portfolio 2026</p>
+
     </footer>
 
 </body>
